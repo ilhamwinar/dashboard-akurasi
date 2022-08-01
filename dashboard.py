@@ -72,107 +72,109 @@ option = st.selectbox(
      'Ciawi1_12','Ciawi1_14','Ciawi1_16','Ciawi1_18',
      'Ciawi2_11','Ciawi2_13','Ciawi2_15',
      ))
-
-if option == 'Cikunir4_5':  
-    ip='10.0.3.2'     
-if option == 'Cikunir4_6':  
-    ip='10.0.4.2'
-if option == 'Cikunir2_5':  
-    ip='10.0.5.2'
-if option == 'Cikunir2_6':  
-    ip='10.0.6.2'
-if option == 'Cikunir2_7':
-    ip='10.0.7.2'
-if option == 'Cakung1_3':
-    ip='10.0.8.2'
-if option == 'Cakung1_4':
-    ip='10.0.9.2'
-if option == 'Bintara 3':
-    ip='10.0.53.2'
-if option == 'Bintara 4':
-    ip='10.0.54.2'
-if option == 'PGB1':
-    ip='10.0.12.2'
-if option == 'Bekasi_Barat16':
-    ip='10.0.13.2'
-if option == 'Bekasi_Barat18':
-    ip='10.0.14.2'
-if option == 'Karawang_barat1_1':
-    ip='10.0.15.2'
-if option == 'Karawang_barat1_3':
-    ip='10.0.16.2'
-if option == 'Karawang_timur2_10':
-    ip='10.0.17.2'
-if option == 'Kalihurip1_8':
-    ip='10.0.18.2'
-if option == 'Kalihurip1_10':
-    ip='10.0.19.2'
-if option == 'Kalihurip2_1':
-    ip='10.0.20.2'
-if option == 'Kalihurip2_3':
-    ip='10.0.21.2'
-if option == 'Cikatama1_1':
-    ip='10.0.22.2'
-if option == 'Cikatama1_3':
-    ip='10.0.23.2'
-if option == 'Cikatama1_5':
-    ip='10.0.24.2'
-if option == 'Cikatama1_7':
-    ip='10.0.25.2'
-if option == 'Cikatama5_35':
-    ip='10.0.26.2'
-if option == 'Cikatama5_37':
-    ip='10.0.27.2'
-if option == 'Cikatama5_39':
-    ip='10.0.28.2'
-if option == 'Cikatama5_41':
-    ip='10.0.29.2'
-if option == 'Karawang_Barat2_13ON':
-    ip='10.0.51.2'
-if option == 'Karawang_Barat2_13OFF':
-    ip='10.0.52.2'
-if option == 'GunungPutri_5':
-    ip='172.20.6.125'
-if option == 'GunungPutri_6':
-    ip='172.20.6.126'
-if option == 'GunungPutri_7':
-    ip='172.20.6.127'
-if option == 'GunungPutri_8':
-    ip='172.20.6.128'
-if option == 'Citereup1_6':
-    ip='172.20.5.126'
-if option == 'Citereup1_8':
-    ip='1172.20.5.128'
-if option == 'Citereup2_1':
-    ip='172.20.5.121'
-if option == 'Citereup2_3':
-    ip='172.20.5.123'
-if option == 'Sentul1_6':
-    ip='172.20.4.126'
-if option == 'Sentul1_8':
-    ip='1172.20.4.128'
-if option == 'Sentul2_1':
-    ip='172.20.4.121'
-if option == 'Sentul2_3':
-    ip='172.20.4.123'
-if option == 'Sentul_selatan_5':
-    ip='172.20.3.125'
-if option == 'Sentul_selatan_7':
-    ip='172.20.3.127'
-if option == 'Ciawi1_12':
-    ip='172.20.1.132'
-if option == 'Ciawi1_14':
-    ip='172.20.1.134'
-if option == 'Ciawi1_16':
-    ip='172.20.1.136'
-if option == 'Ciawi1_18':
-    ip='172.20.1.138'
-if option == 'Ciawi2_11':
-    ip='172.20.16.131'
-if option == 'Ciawi2_13':
-    ip='172.20.16.133'
-if option == 'Ciawi2_15':
-    ip='172.20.16.135'
+try:
+    if option == 'Cikunir4_5':  
+        ip='10.0.3.2'     
+    if option == 'Cikunir4_6':  
+        ip='10.0.4.2'
+    if option == 'Cikunir2_5':  
+        ip='10.0.5.2'
+    if option == 'Cikunir2_6':  
+        ip='10.0.6.2'
+    if option == 'Cikunir2_7':
+        ip='10.0.7.2'
+    if option == 'Cakung1_3':
+        ip='10.0.8.2'
+    if option == 'Cakung1_4':
+        ip='10.0.9.2'
+    if option == 'Bintara 3':
+        ip='10.0.53.2'
+    if option == 'Bintara 4':
+        ip='10.0.54.2'
+    if option == 'PGB1':
+        ip='10.0.12.2'
+    if option == 'Bekasi_Barat16':
+        ip='10.0.13.2'
+    if option == 'Bekasi_Barat18':
+        ip='10.0.14.2'
+    if option == 'Karawang_barat1_1':
+        ip='10.0.15.2'
+    if option == 'Karawang_barat1_3':
+        ip='10.0.16.2'
+    if option == 'Karawang_timur2_10':
+        ip='10.0.17.2'
+    if option == 'Kalihurip1_8':
+        ip='10.0.18.2'
+    if option == 'Kalihurip1_10':
+        ip='10.0.19.2'
+    if option == 'Kalihurip2_1':
+        ip='10.0.20.2'
+    if option == 'Kalihurip2_3':
+        ip='10.0.21.2'
+    if option == 'Cikatama1_1':
+        ip='10.0.22.2'
+    if option == 'Cikatama1_3':
+        ip='10.0.23.2'
+    if option == 'Cikatama1_5':
+        ip='10.0.24.2'
+    if option == 'Cikatama1_7':
+        ip='10.0.25.2'
+    if option == 'Cikatama5_35':
+        ip='10.0.26.2'
+    if option == 'Cikatama5_37':
+        ip='10.0.27.2'
+    if option == 'Cikatama5_39':
+        ip='10.0.28.2'
+    if option == 'Cikatama5_41':
+        ip='10.0.29.2'
+    if option == 'Karawang_Barat2_13ON':
+        ip='10.0.51.2'
+    if option == 'Karawang_Barat2_13OFF':
+        ip='10.0.52.2'
+    if option == 'GunungPutri_5':
+        ip='172.20.6.125'
+    if option == 'GunungPutri_6':
+        ip='172.20.6.126'
+    if option == 'GunungPutri_7':
+        ip='172.20.6.127'
+    if option == 'GunungPutri_8':
+        ip='172.20.6.128'
+    if option == 'Citereup1_6':
+        ip='172.20.5.126'
+    if option == 'Citereup1_8':
+        ip='1172.20.5.128'
+    if option == 'Citereup2_1':
+        ip='172.20.5.121'
+    if option == 'Citereup2_3':
+        ip='172.20.5.123'
+    if option == 'Sentul1_6':
+        ip='172.20.4.126'
+    if option == 'Sentul1_8':
+        ip='1172.20.4.128'
+    if option == 'Sentul2_1':
+        ip='172.20.4.121'
+    if option == 'Sentul2_3':
+        ip='172.20.4.123'
+    if option == 'Sentul_selatan_5':
+        ip='172.20.3.125'
+    if option == 'Sentul_selatan_7':
+        ip='172.20.3.127'
+    if option == 'Ciawi1_12':
+        ip='172.20.1.132'
+    if option == 'Ciawi1_14':
+        ip='172.20.1.134'
+    if option == 'Ciawi1_16':
+        ip='172.20.1.136'
+    if option == 'Ciawi1_18':
+        ip='172.20.1.138'
+    if option == 'Ciawi2_11':
+        ip='172.20.16.131'
+    if option == 'Ciawi2_13':
+        ip='172.20.16.133'
+    if option == 'Ciawi2_15':
+        ip='172.20.16.135'
+except:
+    pass
 
 
 # ip = st.text_input("Masukan IP")
@@ -207,8 +209,7 @@ try:
     df['cam1']=cam1
     st.write(df)
 
-except (NameError):
-    print("error")
+except:
     pass
 
 
@@ -229,6 +230,7 @@ df['gol_avc_ai'] = df['gol_avc'].replace("6", "1")
 
 # Add Gol AI to Data Frame 
 df= df[df['gol_avc_ai'] != 0]
+df= df[df['gol_etoll'] != 0]
 
 actual=list(df['gol_etoll'])
 pred=list(df['gol_avc_ai'])
