@@ -241,7 +241,7 @@ tab=pd.crosstab(y_true_all, y_pred_all,rownames=['GTO'], colnames=['AVC'])
 akurasi=np.diag(tab).sum() / tab.to_numpy().sum()
 error =1-akurasi
 st.success("Accuracy: " +str(akurasi*100)+" %")
-st.error("Accuracy: " +str(error*100)+" %")
+st.error("Error: " +str(error*100)+" %")
 print("Akurasi: "+ str(akurasi))
 print("error: "+ str(error))
 
